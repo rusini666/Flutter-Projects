@@ -20,9 +20,9 @@ class Settings extends StatefulWidget {
 }
 
 class _SettingsState extends State<Settings> {
-  TextEditingController txtWork;
-  TextEditingController txtShort;
-  TextEditingController txtLong;
+  late TextEditingController txtWork;
+  late TextEditingController txtShort;
+  late TextEditingController txtLong;
   static const String WORKTIME = "workTime";
   static const String SHORTBREAK = "shortBreak";
   static const String LONGBREAK = "longBreak";
